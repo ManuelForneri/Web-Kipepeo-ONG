@@ -1,3 +1,8 @@
+:root {
+  --color-primary: #b6f1b3;
+  --color-secondary: #a8648b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,30 +20,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: var(--color-primary);
   padding: 10px 20px;
   height: 100px;
 }
-
 .logo {
-  flex-shrink: 0; /* Evita que el logo se reduzca en exceso */
-}
-
-.logo a {
-  display: block; /* Hace que el enlace ocupe todo el espacio del contenedor */
-}
-
-.logo img {
-  height: 100px; /* La altura se ajustará automáticamente para mantener la proporción */
+  height: 100px;
 }
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .nav-links li a {
-  color: white;
+  color: #000;
   text-decoration: none;
 }
 
@@ -51,7 +48,7 @@ body {
 .line {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #000;
   margin: 3px 0;
 }
 
@@ -63,17 +60,33 @@ body {
 
 .social-icon {
   display: inline-block;
-
-  background-color: #333;
-  color: white;
-  border-radius: 50%;
+  background-color: transparent;
+  color: #000;
   text-decoration: none;
+}
+
+/*boton de idioma*/
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-select {
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
-    background-color: #333;
+    background-color: var(--color-primary);
     position: absolute;
     top: 100px;
     left: 0;
@@ -86,6 +99,7 @@ body {
   .nav-links.active {
     display: flex;
     max-height: 400px;
+    align-items: center;
   }
 
   .nav-links li {
@@ -96,5 +110,9 @@ body {
 
   .burger {
     display: flex;
+  }
+
+  .dropdown-select {
+    width: 100%;
   }
 }

@@ -16,11 +16,13 @@
   </head>
   <body>
     <nav class="navbar">
-      <div class="logo">
-        <a href="index.html"
-          ><img src="assets/Img/logo-tanzania.png" alt="logo-tanzania"
-        /></a>
-      </div>
+      <a href="index.html"
+        ><img
+          class="logo"
+          src="assets/Img/logo-tanzania.png"
+          alt="logo-tanzania"
+      /></a>
+
       <ul class="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Servicios</a></li>
@@ -44,10 +46,13 @@
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
-        <select id="language">
-          <option value="es">ES</option>
-          <option value="en">EN</option>
-        </select>
+        <!--opcion 1-->
+        <div class="language-dropdown">
+          <select class="dropdown-select" id="language-select">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
       </ul>
       <div class="burger">
         <div class="line"></div>
