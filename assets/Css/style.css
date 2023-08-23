@@ -20,13 +20,17 @@ body {
   height: 100px;
 }
 
-.logo a {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
+.logo {
+  flex-shrink: 0; /* Evita que el logo se reduzca en exceso */
 }
 
+.logo a {
+  display: block; /* Hace que el enlace ocupe todo el espacio del contenedor */
+}
+
+.logo img {
+  height: 100px; /* La altura se ajustará automáticamente para mantener la proporción */
+}
 .nav-links {
   list-style: none;
   display: flex;
@@ -51,6 +55,21 @@ body {
   margin: 3px 0;
 }
 
+/*Boton Redes Sociales*/
+.social-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -66,7 +85,7 @@ body {
 
   .nav-links.active {
     display: flex;
-    max-height: 300px;
+    max-height: 400px;
   }
 
   .nav-links li {
