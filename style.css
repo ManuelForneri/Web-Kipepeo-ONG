@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,6 +17,7 @@ body {
   align-items: center;
   background-color: #333;
   padding: 10px 20px;
+  height: 100px;
 }
 
 .logo a {
@@ -44,17 +53,20 @@ body {
 
 @media screen and (max-width: 768px) {
   .nav-links {
-    display: none;
     flex-direction: column;
     background-color: #333;
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 0;
     width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
   }
 
   .nav-links.active {
     display: flex;
+    max-height: 300px;
   }
 
   .nav-links li {
