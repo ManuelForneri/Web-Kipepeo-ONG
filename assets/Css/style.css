@@ -83,6 +83,49 @@ body {
   appearance: none;
 }
 
+/*Home Screen*/
+.home-screen {
+  width: 100%;
+  display: flex;
+}
+.container-text {
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.figure-image {
+  width: 50%;
+  height: auto;
+}
+.figure-image img {
+  max-width: 100%;
+  height: auto;
+}
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80px; /* Ancho total para los tres círculos y su espacio */
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.pink {
+  background-color: var(--color-secondary);
+}
+.green {
+  background-color: var(--color-primary);
+}
+
+.black {
+  background-color: black;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
