@@ -116,6 +116,7 @@ body {
 }
 .container-text p {
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 .text-pink {
   color: var(--color-secondary);
