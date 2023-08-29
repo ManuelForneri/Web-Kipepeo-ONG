@@ -373,7 +373,6 @@ textarea {
   border: none;
 }
 .footer {
-  height: 41vh;
   background-color: #100f0d;
 }
 .footer__div {
@@ -398,18 +397,22 @@ textarea {
   width: 50%;
 }
 .footer__p {
+  display: flex;
   height: 20%;
   color: aliceblue;
 }
 .footer__nav {
   display: flex;
-  margin-right: 2rem;
-  flex-direction: row-reverse;
-  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
 }
+
 .nav__redes {
   display: flex;
   gap: 1rem;
+}
+.nav__redes a {
+  color: white;
 }
 @media screen and (max-width: 768px) {
   .nav-links {
