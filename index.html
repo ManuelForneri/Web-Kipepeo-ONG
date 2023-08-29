@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="assets/Css/style.css" />
 
     <!--Iconos-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Roboto:wght@100;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Web Kipepeo ONG</title>
   </head>
@@ -21,39 +31,48 @@
       /></a>
 
       <ul class="nav-links">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Portafolio</a></li>
-        <li><a href="#">Acerca de</a></li>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Que hacemos</a></li>
+        <li><a href="#">Cómo ayudar</a></li>
         <li><a href="./pages/contact.html">Contacto</a></li>
-        <div class="social-buttons">
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            class="social-icon"
-            ><i class="fab fa-facebook"></i
-          ></a>
-          <a href="https://twitter.com/" class="social-icon" target="_blank"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/kilimamojahotspring/"
-            class="social-icon"
-            target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </div>
-        <!--opcion 1-->
-        <div class="language-dropdown">
-          <select class="dropdown-select" id="language-select">
-            
-            <option value="es">ES</option>
-            <option value="en">EN</option>
-          </select>
-        </div>
+        <li>
+          <div class="social-buttons">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="social-icon"
+              aria-label="facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="social-icon"
+              aria-label="twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/kilimamojahotspring/"
+              class="social-icon"
+              aria-label="Instagram"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="language-dropdown">
+            <select class="dropdown-select" id="language-select">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
+          </div>
+        </li>
       </ul>
       <div class="burger">
-        
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
@@ -61,13 +80,21 @@
     </nav>
     <main>
       <section class="home-screen">
-        <div class="container-text">
-          <p>KIPEPEO TANZANIA</p>
-          <h1>ROMPER LAS BARRERAS CULTURALES</h1>
-          <p>
-            Esta organización sin ánimo de lucro está registrada oficialmente en
-            Tanzania
-          </p>
+        <div class="midel-screen">
+          <div class="container-text">
+            <div class="name-ong">
+              <img src="assets/Img/kipepeo 1.png" alt="" />
+              <img src="assets/Img/tanzania 1.png" alt="" />
+            </div>
+            <h1>
+              <span class="text-secondary">ROMPER</span> LAS BARRERAS
+              <span class="text-secondary"> CULTURALES </span>
+            </h1>
+            <p>
+              Esta organización sin ánimo de lucro está registrada oficialmente
+              en <span class="text-secondary">Tanzania</span>
+            </p>
+          </div>
           <div class="circle-container">
             <div class="circle black"></div>
             <div class="circle pink"></div>
@@ -76,6 +103,58 @@
         </div>
         <div class="figure-image">
           <img src="assets/Img/home.webp" alt="" />
+        </div>
+      </section>
+      <section>
+        <div class="second-home">
+          <div class="description-container bg-secondary">
+            <img src="assets/Img/daughter.png" alt="" />
+            <div>
+              <h2 class="text-primary">7.9m</h2>
+              <p class="text-primary">
+                Mujeres y niñas que viven en Tanzania han sido sometidas a la
+                mutilación genital.
+              </p>
+            </div>
+          </div>
+          <div class="description-container bg-primary">
+            <img src="assets/Img/bride.png" alt="" />
+            <div>
+              <h2 class="text-secondary">37%</h2>
+              <p class="text-secondary">
+                Niñas se casan antes de cumplir los años 18 años de edad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="objetives-container">
+          <div class="image-container">
+            <img
+              src="assets/Img/foto-home2.png"
+              alt="Imagen"
+              class="objetives-image"
+            />
+            <div class="circle-container">
+              <div class="circle green border"></div>
+              <div class="circle border"></div>
+              <div class="circle border"></div>
+            </div>
+          </div>
+          <div class="text-box">
+            <h2 class="text-secondary">OBJETIVOS</h2>
+            <p>
+              Esta organización sin ánimo de lucro está registrada oficialmente
+              en Tanzania. Andrea Fernandez es una de las directoras de esta
+              organización y dueña del colegio y orfanato local de Tanzania, con
+              el que la asociación trabaja mano a mano...
+            </p>
+            <a href="#" class="btn-calltoaction">CALL TO ACTION</a>
+          </div>
+        </div>
+
+        <div>
+          <hr class="main__line" />
+          <hr class="main__line--bg" />
         </div>
       </section>
     </main>
