@@ -130,8 +130,8 @@ body {
   width: 70%;
 }
 .container-text h1 {
-  font-size: 60px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Futura Std", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
