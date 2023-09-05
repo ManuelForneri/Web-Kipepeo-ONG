@@ -30,33 +30,19 @@
 
         <ul class="nav-list">
           <li><a href="../index.html" class="nav-links">Inicio</a></li>
-          <li>
-            <div class="dropdown">
-              <button
-                class="dropdown-button"
-                onclick="toggleOptions('options1')"
-              >
-                Show Options 1
-              </button>
-              <div id="options1" class="options">
-                <a href="#">Option A</a>
-                <a href="#">Option B</a>
-              </div>
-            </div>
+          <li class="has-dropdown">
+            <a href="#" class="nav-links">Nosotros</a>
+            <ul class="dropdown">
+              <li><a href="#">Quiénes somos</a></li>
+              <li><a href="#">Historia</a></li>
+            </ul>
           </li>
-          <li>
-            <div class="dropdown">
-              <button
-                class="dropdown-button"
-                onclick="toggleOptions('options2')"
-              >
-                Show Options 2
-              </button>
-              <div id="options2" class="options">
-                <a href="#">Option X</a>
-                <a href="#">Option Y</a>
-              </div>
-            </div>
+          <li class="has-dropdown">
+            <a href="#" class="nav-links">Qué hacemos</a>
+            <ul class="dropdown">
+              <li><a href="#">Educación</a></li>
+              <li><a href="#">Turismo</a></li>
+            </ul>
           </li>
           <li><a href="./help.html" class="nav-links">Cómo ayudar</a></li>
           <li><a href="./contact.html" class="nav-links">Contacto</a></li>
