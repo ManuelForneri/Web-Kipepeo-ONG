@@ -21,6 +21,13 @@ body {
 a {
   text-decoration: none;
 }
+.title {
+  color: var(--color-secondary);
+  font-family: "Futura Std", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
 .bg-primary {
   background: var(--color-primary);
 }
@@ -82,7 +89,7 @@ a {
 }
 
 .dropdown li {
-  margin: 0;
+  padding: 10px;
   list-style: none;
 }
 
@@ -91,9 +98,8 @@ a {
 }
 
 /* Estilos al hacer hover en los elementos del navbar */
-.navbar li:hover a {
-  background-color: var(--color-secondary);
-  color: #fff;
+.navbar li a:hover {
+  color: #df8cbb;
 }
 
 .burger {
@@ -305,6 +311,42 @@ a {
   line-height: 36px;
   text-decoration: none;
   padding: 5px 10px;
+}
+/*History screen*/
+.history-screen {
+  min-height: 100vh;
+}
+.history-screen h1 {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+.history-text {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+.history-text p {
+  font-family: "Futura Std", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+.circle-container-history {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+}
+.history-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.history-image {
+  width: 80%;
 }
 
 /*Contacto*/
