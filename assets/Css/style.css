@@ -329,7 +329,8 @@ a {
 }
 .history-text p {
   font-family: "Futura Std", sans-serif;
-  font-size: 22px;
+  width: 50%;
+  font-size: 130%;
   font-style: normal;
   font-weight: 500;
   margin: 30px 0px;
@@ -344,9 +345,43 @@ a {
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  margin-bottom: 30px;
 }
 .history-image {
   width: 80%;
+}
+.history__line__green {
+  background-color: var(--color-primary);
+  height: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 20px;
+  float: right;
+}
+.history__line__pink {
+  background-color: var(--color-secondary);
+  height: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 20px;
+}
+.second-history-screen {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+.second-history-screen div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.second-history-screen div p {
+  font-family: "Futura Std", sans-serif;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 500;
 }
 
 /*Contacto*/
