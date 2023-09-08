@@ -23,7 +23,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <a href="index.html"
+        <a href="./index.html"
           ><img
             class="logo"
             src="assets/Img/logo-tanzania.png"
@@ -31,28 +31,22 @@
         /></a>
 
         <ul class="nav-list">
-          <li><a href="/index.html" class="nav-links">Inicio</a></li>
-          <li>
-            <div class="dropdown">
-              <span>Nosotros</span>
-              <div class="dropdown-content">
-                <a class="dropdown-options" href="#">Que hacemos</a>
-                <a class="dropdown-options" href="/pages/history.html"
-                  >Historia</a
-                >
-              </div>
-            </div>
+          <li><a href="./index.html" class="nav-links">Inicio</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="nav-links">Nosotros</a>
+            <ul class="dropdown">
+              <li><a href="./pages/about.html">Quiénes somos</a></li>
+              <li><a href="./pages/history.html">Historia</a></li>
+            </ul>
           </li>
-          <li>
-            <div class="dropdown">
-              <span>Que hacemos</span>
-              <div class="dropdown-content">
-                <a class="dropdown-options" href="#"></a>
-                <a class="dropdown-options" href="#"></a>
-              </div>
-            </div>
+          <li class="has-dropdown">
+            <a href="./pages/" class="nav-links">Qué hacemos</a>
+            <ul class="dropdown">
+              <li><a href="">Educación</a></li>
+              <li><a href="./tourism.html">Turismo</a></li>
+            </ul>
           </li>
-          <li><a href="#" class="nav-links">Cómo ayudar</a></li>
+          <li><a href="./pages/help.html" class="nav-links">Cómo ayudar</a></li>
           <li><a href="./pages/contact.html" class="nav-links">Contacto</a></li>
           <li>
             <div class="social-buttons">
@@ -124,7 +118,6 @@
           <img src="assets/Img/home.webp" alt="" />
         </div>
       </section>
-      <>
       <div class="second-home">
         <div class="description-container bg-secondary">
           <img src="assets/Img/daughter.png" alt="" />
@@ -153,32 +146,27 @@
             alt="Imagen"
             class="objetives-image"
           />
+
           <div class="circle-container">
             <div class="circle green border"></div>
             <div class="circle border"></div>
             <div class="circle border"></div>
           </div>
-
-          <div>
-            <hr class="main__line bg-primary" />
-            <hr class="main__line--bg bg-secondary" />
-          </div>
-          <div class="text-box">
-            <h2 class="text-secondary">OBJETIVOS</h2>
-            <p>
-              Esta organización sin ánimo de lucro está registrada oficialmente
-              en Tanzania. Andrea Fernandez es una de las directoras de esta
-              organización y dueña del colegio y orfanato local de Tanzania, con
-              el que la asociación trabaja mano a mano...
-            </p>
-            <a href="#" class="btn-calltoaction">CALL TO ACTION</a>
-          </div>
         </div>
-
-        <div>
-          <hr class="main__line" />
-          <hr class="main__line--bg" />
+        <div class="text-box">
+          <h2 class="text-secondary">OBJETIVOS</h2>
+          <p>
+            Esta organización sin ánimo de lucro está registrada oficialmente en
+            Tanzania. Andrea Fernandez es una de las directoras de esta
+            organización y dueña del colegio y orfanato local de Tanzania, con
+            el que la asociación trabaja mano a mano...
+          </p>
+          <a href="#" class="btn-calltoaction">CALL TO ACTION</a>
         </div>
+      </div>
+      <div>
+        <hr class="main__line bg-primary" />
+        <hr class="main__line--bg bg-secondary" />
       </div>
     </main>
     <footer class="footer">
