@@ -457,13 +457,13 @@ a {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 630px;
+  height: 600px;
 }
 .main__h2 {
-  font-size: 55px;
-  font-family: "Playfair Display", serif;
+  font-size: 75px;
+  font-family: "Poppins", sans-serif;
   text-align: center;
-  padding: 33px 0px 47px 0px;
+  
   font-weight: bold;
   color: #b6f1b3;
 }
@@ -478,8 +478,11 @@ a {
   width: 40%;
 }
 .main__h3 {
+  font-family: "Poppins", sans-serif;
   color: aliceblue;
+  
 }
+
 form {
   display: flex;
   justify-content: space-evenly;
@@ -512,18 +515,20 @@ textarea {
   font-weight: bold;
   border: none;
 }
+
+
 /* footer */
 .main__line {
   margin-top: 1rem;
   margin-left: 240px;
   height: 15px;
-  background-color: #b6f1b3;
   border: none;
+  margin-bottom: 1rem;
 }
 .main__line--bg {
-  background-color: #a8648b;
   height: 15px;
   border: none;
+  
 }
 .footer {
   background-color: #100f0d;
@@ -533,39 +538,122 @@ textarea {
   justify-content: space-around;
 }
 .footer__logo {
-  margin-right: 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 15%;
   width: 20%;
 }
 .footer__img {
   width: 100%;
 }
 .footer__container {
-  margin-top: 1rem;
+  padding: 3rem 0 2rem 0;
   display: flex;
+  justify-content: space-between;
 }
 .footer__container1 {
-  width: 50%;
-}
-.footer__container2 {
-  width: 50%;
-}
-.footer__p {
+  width: 40%;
   display: flex;
-  height: 20%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__p {
+  line-height: 1.5rem;
   color: aliceblue;
+  font-family: "Roboto";
+}
+.footer__p--color{
+  color: #787878;
+  font-family: "Roboto", sans-serif;
 }
 .footer__nav {
   display: flex;
-  padding: 1rem;
+  padding: 2rem 4rem 1rem 5rem;
   justify-content: space-between;
 }
 
 .nav__redes {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .nav__redes a {
   color: white;
+}
+
+
+/* Quienes somos */
+
+.div{
+  margin: 7rem;
+  display: flex;
+  gap: 6rem;
+
+}
+.div__img{
+  width: 50%;
+}
+.div__h2{
+  font-family:  "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.div__p{
+  font-size: 1.2rem;
+  font-family:  "Poppins", sans-serif;
+}
+.div__fig{
+  
+  display: flex;
+  height: 600px;
+  padding: 3rem 0;
+
+}
+.div__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+}
+.people--1{
+  width: 225px;
+    height: 228px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.figure__people1{
+  height: 100%;
+}
+.div__h3{
+  padding: 0 1.2rem 0 1.2rem;
+  font-size: 1rem;
+  background-color: #b6f1b3;
+  font-family:  "Poppins", sans-serif;
+}
+.div__nf{
+  color: #e6e6e6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  inline-size: 5rem;
+  font-family:  "Poppins", sans-serif;
+}
+.div__pNF{
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e6e6e6;
+  inline-size: 13rem;
+  font-family:  "Poppins", sans-serif;
+}
+.div__p--Tanzania{
+  position: absolute;
+  font-size: 2rem;
+  top: 114rem;
+  right: 73px;
+  color: #e6e6e6;
+  font-family:  "Poppins", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .nav-links {
