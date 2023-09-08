@@ -1,144 +1,232 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/Css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <title>Contacto</title>
-</head>
-<body>
+    <!--Iconos-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Roboto:wght@100;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto | Kipepeo</title>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <a href="../index.html"><img class="logo"src="../assets/Img/logo-tanzania.png" alt="logo-tanzania"/></a>
-            <ul class="nav-links">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            
+      <nav class="navbar">
+        <a href="../index.html"
+          ><img
+            class="logo"
+            src="../assets/Img/logo-tanzania.png"
+            alt="logo-tanzania"
+        /></a>
+
+        <ul class="nav-links">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="./about.html">Nosotros</a></li>
+          <li><a href="#">Que hacemos</a></li>
+          <li><a href="#">Cómo ayudar</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+          <li>
             <div class="social-buttons">
-                <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/kilimamojahotspring/" class="social-icon"target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>  
-            <!--opcion 1-->
-        <div class="language-dropdown">
-            <select class="dropdown-select" id="language-select">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-icon"
+                aria-label="facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="social-icon"
+                aria-label="twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/kilimamojahotspring/"
+                class="social-icon"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="language-dropdown">
+              <select class="dropdown-select" id="language-select">
                 <option value="es">ES</option>
                 <option value="en">EN</option>
-            </select>
+              </select>
+            </div>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-            </ul>
-            <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        </nav>
+      </nav>
     </header>
     <main>
-        <div class="main__div">
-            <img class="main__img" src="../assets/Img/foto-contacto.jpeg" alt="niños jugando" />
-            
-        </div>
-        <div class="main__overlay main__bg">
-            <!-- <img src="../assets/Img/foto-contacto2.jpeg" alt="leones" class="main__img"> -->
-            <h1 class="main__h2" >Contacto</h1>
-            <p class="main__p main__h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam maiores odit quia sapiente voluptate minus nulla, eius obcaecati. Animi doloribus nam exercitationem sunt commodi assumenda excepturi, aperiam dolore rem tempora.</p>
-            <section class="section">
-                <form action="" class="form">
-                    <div class="main__section">
-                        <h3 class="main__h3">Datos personales</h3>
-                        <!-- campo para nombre -->
-                        <div>
-                        <label for="nombreApellido"></label>
-                    <input type="text" name="nombreApellido" id="nombreApellido" required placeholder="Nombre completo">
-                        </div>
-                        <!-- campo para telefono -->
-                        <div>
-                    <label for="telefono" ></label>
-                    <input type="tel" name="telefono" id="telefono" required placeholder="Teléfono">
-                        </div>
-                        <!-- campo para correo -->
-                        <div>
-                        <label for="correoElectronico" ></label>
-                        <input type="email" name="correoElectronico" id="correoElectronico" required placeholder="Correo electrónico">
-                        </div>
-                    </div>
-                    <!-- campo para dejar comentario -->
-                    <div class="main__section">
-                    <h3 class="main__h3">Mensaje</h3>
-                    <label for="comentarios" ></label>
-                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribir mensaje"></textarea>
-                <!-- campo para boton enviar -->
-                    <div >
-                        <input class="form__flex" type="submit" value="Enviar">
-                    </div>
-                
-                    </div>
-                </form>
-            </section>
-            
-            
+      <div class="main__div">
+        <img
+          class="main__img"
+          src="../assets/Img/foto-contacto.jpeg"
+          alt="niños jugando"
+        />
+      </div>
+      <div class="main__overlay main__bg">
+        <!-- <img src="../assets/Img/foto-contacto2.jpeg" alt="leones" class="main__img"> -->
+        <h1 class="main__h2">CONTACTO</h1>
+        <h3 class="main__h3 " style="margin-bottom: 2rem; text-align: center;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          maiores odit quia sapiente voluptate. <br> minus nulla, eius obcaecati.
+          Animi doloribus nam exercitationem sunt commodi assumenda excepturi,
+          aperiam dolore rem tempora.
+        </h3>
+        <section class="section">
+          <form action="" method="post" class="form">
+            <div class="main__section">
+              <h3 class="main__h3">Datos personales</h3>
+              <!-- campo para nombre -->
+              <div>
+                <label for="nombreCompleto"></label>
+                <input
+                  type="text"
+                  name="nombreCompleto"
+                  id="nombreCompleto"
+                  required
+                  placeholder="Nombre completo"
+                />
+              </div>
+              <!-- campo para telefono -->
+              <div>
+                <label for="telefono"></label>
+                <input
+                  type="tel"
+                  name="telefono"
+                  id="telefono"
+                  required
+                  placeholder="Teléfono"
+                />
+              </div>
+              <!-- campo para correo -->
+              <div>
+                <label for="correoElectronico"></label>
+                <input
+                  type="email"
+                  name="correoElectronico"
+                  id="correoElectronico"
+                  required
+                  placeholder="Correo electrónico"
+                />
+              </div>
+            </div>
+            <!-- campo para dejar comentario -->
+            <div class="main__section">
+              <h3 class="main__h3">Mensaje</h3>
+              <label for="comentarios"></label>
+              <textarea
+                name="comentarios"
+                id="comentarios"
+                cols="30"
+                rows="10"
+                placeholder="Escribir mensaje"
+              ></textarea>
+              <!-- campo para boton enviar -->
+              <div>
+                <input class="form__flex" type="submit" value="Enviar" />
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
     </main>
-    <hr class="main__line">
-    <hr class="main__line--bg">
+    <hr class="main__line bg-primary" />
+    <hr class="main__line--bg bg-secondary" />
     <footer class="footer">
-        <div class="footer__div">
-            <div class="footer__logo">
-                <img src="../assets/Img/logo-tanzania.png" alt="logo" class="footer__img">
-            </div>
-            <div class="footer__container">
-                <div class="footer__container1">
-                <p class="footer__p">Quienes somos
-                    Personas con ganas de
-                    involucrarse día día
-                </p>
-                <p class="footer__p">Que hacemos
-                    Apadrinamos, para continuar
-                    financiando los estudios
-                </p>
-                <p class="footer__p">Contacto
-                    +(54)9283 2929 39393
-                    +(54)9283 2929 39393
-                </p>
-            </div>
-            <div class="footer__container2">
-                <p class="footer__p">Quienes somos</p>
-                <p class="footer__p">Quienes somos</p>
-            </div>
-                
-            </div>
+      <div class="footer__div">
+        <div class="footer__logo">
+          <img
+            src="../assets/Img/logo-tanzania.png"
+            alt="logo"
+            class="footer__img"
+          />
         </div>
-        <hr class="footer__hr">
-        <p class="footer__p--20">Seguinos en redes</p>
-        <nav id="rrss" class="footer__nav">
-            <div class="nav__redes">
-                <!-- iconos de redes sociales -->
-                <a href="https://www.instagram.com/" target="_blank" class="nav__a">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                </svg> 
-                <a href="https://twitter.com/" style="color: white;" height="25" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
-                </a>
-                <a href="https://www.facebook.com/" target="_blank" class="nav__a">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                </svg>
-                </a>
+        <div class="footer__container">
+          <div class="footer__container1">
+            <div>
+              <p class="footer__p footer__p--color" >Quienes somos </p>
+            <p class="footer__p">Personas con ganas de involucrarse día día</p>
             </div>
-        </nav>
-        
-        <div class="footer__div">
-            <p class="footer__p">Copyright.Amélie</p>
+            <div>
+              <p class="footer__p footer__p--color" >Que hacemos Apadrinamos,</p>
+            <p class="footer__p">para continuar financiando los estudios</p>
+            </div>
+            <div>
+              <p class="footer__p footer__p--color" >Contacto </p>
+            <p class="footer__p">+(54)9283 2929 39393 <br> +(54)9283 2929 39393</p>
+            </div>
+          </div>
+          <div class="footer__container1">
+            <div>
+              <p class="footer__p footer__p--color" >Quienes somos </p>
+            <p class="footer__p">Personas con ganas de involucrarse día día</p>
+            </div>
+            <div>
+              <p class="footer__p footer__p--color" >Que hacemos Apadrinamos,</p>
+            <p class="footer__p">para continuar financiando los estudios</p>
+            </div>
+            
+          </div>
         </div>
+      </div>
+      <hr class="footer__hr" />
+      <nav id="rrss" class="footer__nav">
+        <p class="footer__p">Copyright 2023, Organización Kipepeo</p>
+        <div class="nav__redes">
+          <!-- iconos de redes sociales -->
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="social-icon"
+            aria-label="facebook"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="social-icon"
+            aria-label="twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/kilimamojahotspring/"
+            class="social-icon"
+            aria-label="Instagram"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </nav>
     </footer>
     <script src="../assets/Js/index.js"></script>
-</body>
+  </body>
 </html>
