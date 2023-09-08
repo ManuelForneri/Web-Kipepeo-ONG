@@ -398,6 +398,9 @@ a {
   flex-direction: column;
   gap: 30px;
 }
+.tourism-text p {
+  font-family: "Futura Std", sans-serif;
+}
 
 .imagen-tourism {
   width: 100%;
