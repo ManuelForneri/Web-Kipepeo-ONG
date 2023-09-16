@@ -17,10 +17,8 @@
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Roboto:wght@100;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
     <title>Contacto | Kipepeo</title>
   </head>
   <body>
@@ -36,8 +34,8 @@
         <ul class="nav-links">
           <li><a href="/index.html">Inicio</a></li>
           <li><a href="./about.html">Nosotros</a></li>
-          <li><a href="#">Que hacemos</a></li>
-          <li><a href="#">Cómo ayudar</a></li>
+          <li><a href="./education.html">Que hacemos</a></li>
+          <li><a href="./donation.html">Cómo ayudar</a></li>
           <li><a href="./contact.html">Contacto</a></li>
           <li>
             <div class="social-buttons">
@@ -91,8 +89,8 @@
         />
       </div>
       <div class="main__overlay main__bg">
-        <!-- <img src="../assets/Img/foto-contacto2.jpeg" alt="leones" class="main__img"> -->
-        <h1 class="main__h2">CONTACTO</h1>
+        
+        <h1 class="main__h2 text-primary">CONTACTO</h1>
         <h3 class="main__h3 " style="margin-bottom: 2rem; text-align: center;">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
           maiores odit quia sapiente voluptate. <br> minus nulla, eius obcaecati.
@@ -100,7 +98,7 @@
           aperiam dolore rem tempora.
         </h3>
         <section class="section">
-          <form action="" method="post" class="form">
+          <form action="https://formsubmit.co/kipepeoaptanzania@gmail.com" method="POST" class="form">
             <div class="main__section">
               <h3 class="main__h3">Datos personales</h3>
               <!-- campo para nombre -->
@@ -153,6 +151,9 @@
                 <input class="form__flex" type="submit" value="Enviar" />
               </div>
             </div>
+            <input type="hidden" name="_next" value="https://web-kipepeo-ong.netlify.app/pages/exito">
+            
+            <input type="hidden" name="_captcha" value="false">
           </form>
         </section>
       </div>
