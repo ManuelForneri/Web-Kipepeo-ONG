@@ -18,6 +18,17 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+a {
+  text-decoration: none;
+}
+.title {
+  color: var(--color-secondary);
+  font-family: "Futura Std", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 20px;
+}
 .bg-primary {
   background: var(--color-primary);
 }
@@ -41,23 +52,56 @@ body {
   background-color: var(--color-primary);
   padding: 10px 20px;
   height: 151px;
+  transition: all 0.9s;
 }
 .logo {
   width: 150px;
   height: 150px;
 }
-.nav-links {
+.nav-list {
   list-style: none;
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-size: 20px;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
-.nav-links li a {
+.nav-links {
   color: #100f0d;
   text-decoration: none;
+}
+
+.has-dropdown {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-secondary);
+}
+
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  padding: 10px;
+  list-style: none;
+}
+
+.dropdown a {
+  color: #fff;
+}
+
+/* Estilos al hacer hover en los elementos del navbar */
+.navbar li a:hover {
+  color: #df8cbb;
 }
 
 .burger {
@@ -130,15 +174,16 @@ body {
   width: 70%;
 }
 .container-text h1 {
-  font-size: 60px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Futura Std", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .container-text p {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Futura Std", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -195,13 +240,15 @@ body {
   width: 50%;
 }
 .description-container div h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 58px;
-  font-weight: bold;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Futura Std", sans-serif;
+  font-size: 58.168px;
+  font-style: normal;
+  font-weight: 700;
 }
 .description-container div p {
   font-size: medium;
-  font-family: "Poppins", sans-serif;
+  font-family: "Futura Std", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
@@ -251,6 +298,7 @@ body {
 }
 .text-box h2 {
   font-size: 36px;
+  font-family: "Futura Std", sans-serif;
 }
 .btn-calltoaction {
   text-align: center;
@@ -265,6 +313,122 @@ body {
   line-height: 36px;
   text-decoration: none;
   padding: 5px 10px;
+}
+/*History screen*/
+.history-screen {
+  min-height: 100vh;
+}
+.history-screen h1 {
+  width: 80%;
+  margin: auto;
+}
+.history-text {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+.history-text p {
+  font-family: "Futura Std", sans-serif;
+  width: 50%;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+.circle-container-history {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+}
+.history-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.history-image {
+  width: 80%;
+}
+.history__line__green {
+  background-color: var(--color-primary);
+  height: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 20px;
+  float: right;
+}
+.history__line__pink {
+  background-color: var(--color-secondary);
+  height: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 20px;
+}
+.second-history-screen {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+.second-history-screen div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.second-history-screen div p {
+  font-family: "Futura Std", sans-serif;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 500;
+}
+/*Turismo*/
+.tourism-screen {
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+}
+.tourism-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tourism-text p {
+  font-family: "Futura Std", sans-serif;
+}
+
+.imagen-tourism {
+  width: 100%;
+}
+
+.text-tourism-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  padding: 20px;
+  gap: 10px;
+  margin-right: -50px;
+  width: 35%;
+  z-index: 2;
+}
+.text-tourism-box h2 {
+  font-family: "Futura Std", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.text-tourism-box p {
+  color: #fcf9f9;
+  font-size: 120%;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
 }
 
 /*----------------------------------------------------------Contacto-------------------------------------------------*/
@@ -376,7 +540,6 @@ textarea {
 .main__line--bg {
   height: 15px;
   border: none;
-  
 }
 .footer {
   background-color: #100f0d;
@@ -411,7 +574,7 @@ textarea {
   color: aliceblue;
   font-family: "Roboto";
 }
-.footer__p--color{
+.footer__p--color {
   color: #787878;
   font-family: "Roboto", sans-serif;
 }
@@ -436,9 +599,8 @@ textarea {
   margin: 7rem;
   display: flex;
   gap: 6rem;
-
 }
-.div__img{
+.div__img {
   width: 50%;
 }
 .div__h2{
@@ -447,7 +609,7 @@ textarea {
   font-weight: bold;
 }
 
-.div__p{
+.div__p {
   font-size: 1.2rem;
   font-family: "Futura Std", sans-serif;
 
@@ -457,22 +619,21 @@ textarea {
   display: flex;
   height: 600px;
   padding: 3rem 0;
-
 }
-.div__card{
+.div__card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 25%;
 }
-.people--1{
+.people--1 {
   width: 225px;
-    height: 228px;
-    overflow: hidden;
-    border-radius: 50%;
+  height: 228px;
+  overflow: hidden;
+  border-radius: 50%;
 }
-.figure__people1{
+.figure__people1 {
   height: 100%;
 }
 .div__h3{
@@ -484,13 +645,13 @@ textarea {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
-.div__nf{
+.div__nf {
   color: #e6e6e6;
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
-.div__pNF{
+.div__pNF {
   padding: 0 1rem 0 1rem;
   text-align: center;
   font-size: 1.2rem;

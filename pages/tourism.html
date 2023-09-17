@@ -2,13 +2,9 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/Css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+
     <!--Iconos-->
     <link
       rel="stylesheet"
@@ -17,9 +13,10 @@
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
-    <title>Contacto | Kipepeo</title>
+    <title>Web Kipepeo ONG | Turismo</title>
   </head>
   <body>
     <header>
@@ -31,7 +28,7 @@
             alt="logo-tanzania"
         /></a>
 
-        <ul class="nav-links">
+        <ul class="nav-list">
           <li><a href="../index.html" class="nav-links">Inicio</a></li>
           <li class="has-dropdown">
             <a href="#" class="nav-links">Nosotros</a>
@@ -93,85 +90,70 @@
       </nav>
     </header>
     <main>
-      <div class="main__div">
-        <img
-          class="main__img"
-          src="../assets/Img/foto-contacto.jpeg"
-          alt="niños jugando"
-        />
-      </div>
-      <div class="main__overlay main__bg">
-        
-        <h1 class="main__h2">CONTACTO</h1>
-        <h3 class="main__h3 text-primary" style="margin-bottom: 2rem; text-align: center;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          maiores odit quia sapiente voluptate. <br />
-          minus nulla, eius obcaecati. Animi doloribus nam exercitationem sunt
-          commodi assumenda excepturi, aperiam dolore rem tempora.
-        </h3>
-        <section class="section">
-          <form action="https://formsubmit.co/kipepeoaptanzania@gmail.com" method="POST" class="form">
-            <div class="main__section">
-              <h3 class="main__h3">Datos personales</h3>
-              <!-- campo para nombre -->
-              <div>
-                <label for="nombreCompleto"></label>
-                <input
-                  type="text"
-                  name="nombreCompleto"
-                  id="nombreCompleto"
-                  required
-                  placeholder="Nombre completo"
-                />
-              </div>
-              <!-- campo para telefono -->
-              <div>
-                <label for="telefono"></label>
-                <input
-                  type="tel"
-                  name="telefono"
-                  id="telefono"
-                  required
-                  placeholder="Teléfono"
-                />
-              </div>
-              <!-- campo para correo -->
-              <div>
-                <label for="correoElectronico"></label>
-                <input
-                  type="email"
-                  name="correoElectronico"
-                  id="correoElectronico"
-                  required
-                  placeholder="Correo electrónico"
-                />
-              </div>
+      <section class="tourism-screen">
+        <h1 class="title">TURISMO</h1>
+        <div class="tourism-text">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. Why do we use it?
+          </p>
+          <div>
+            <img
+              src="../assets/Img/turismo.png"
+              alt=""
+              class="imagen-tourism"
+            />
+            <div class="circle-container-history">
+              <div class="circle green border"></div>
+              <div class="circle border"></div>
+              <div class="circle border"></div>
             </div>
-            <!-- campo para dejar comentario -->
-            <div class="main__section">
-              <h3 class="main__h3">Mensaje</h3>
-              <label for="comentarios"></label>
-              <textarea
-                name="comentarios"
-                id="comentarios"
-                cols="30"
-                rows="10"
-                placeholder="Escribir mensaje"
-              ></textarea>
-              <!-- campo para boton enviar -->
-              <div>
-                <input class="form__flex" type="submit" value="Enviar" />
-              </div>
-            </div>
-            <input type="hidden" name="_next" value="https://web-kipepeo-ong.netlify.app/pages/exito">
-            
-            <input type="hidden" name="_captcha" value="false">
-          </form>
-        </section>
-      </div>
+          </div>
+        </div>
+        <div class="objetives-container">
+          <div class="text-tourism-box">
+            <h2 class="">Tanzania, Africa Oriental</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+          <div>
+            <img
+              src="../assets/Img/turismo2.png"
+              alt="Imagen"
+              class="imagen-tourism"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2029709.5263407768!2d34.84897327432728!3d-6.486637747369678!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1694039329420!5m2!1ses!2sar"
+          width="100%"
+          height="450"
+          style="border: 0; padding-bottom: 30px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div>
+          <hr class="history__line__green" />
+          <hr class="history__line__pink" />
+        </div>
+      </section>
     </main>
-    <hr class="main__line bg-primary" />
-    <hr class="main__line--bg bg-secondary" />
     <footer class="footer">
       <div class="footer__div">
         <div class="footer__logo">
@@ -183,35 +165,19 @@
         </div>
         <div class="footer__container">
           <div class="footer__container1">
-            <div>
-              <p class="footer__p footer__p--color">Quienes somos</p>
-              <p class="footer__p">
-                Personas con ganas de involucrarse día día
-              </p>
-            </div>
-            <div>
-              <p class="footer__p footer__p--color">Que hacemos Apadrinamos,</p>
-              <p class="footer__p">para continuar financiando los estudios</p>
-            </div>
-            <div>
-              <p class="footer__p footer__p--color">Contacto</p>
-              <p class="footer__p">
-                +(54)9283 2929 39393 <br />
-                +(54)9283 2929 39393
-              </p>
-            </div>
+            <p class="footer__p">
+              Quienes somos Personas con ganas de involucrarse día día
+            </p>
+            <p class="footer__p">
+              Que hacemos Apadrinamos, para continuar financiando los estudios
+            </p>
+            <p class="footer__p">
+              Contacto +(54)9283 2929 39393 +(54)9283 2929 39393
+            </p>
           </div>
-          <div class="footer__container1">
-            <div>
-              <p class="footer__p footer__p--color">Quienes somos</p>
-              <p class="footer__p">
-                Personas con ganas de involucrarse día día
-              </p>
-            </div>
-            <div>
-              <p class="footer__p footer__p--color">Que hacemos Apadrinamos,</p>
-              <p class="footer__p">para continuar financiando los estudios</p>
-            </div>
+          <div class="footer__container2">
+            <p class="footer__p">Quienes somos</p>
+            <p class="footer__p">Quienes somos</p>
           </div>
         </div>
       </div>
