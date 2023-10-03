@@ -4,6 +4,7 @@
   --color-primary: #b6f1b3;
   --color-secondary: #a8648b;
   --color-cream: #efe3de;
+  --color-white: #FFFFFF;
 }
 
 * {
@@ -44,7 +45,9 @@ a {
 .border {
   border: 1px solid #100f0d;
 }
-
+.text-white {
+  color: var(--color-white);
+}
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -473,7 +476,7 @@ a {
 }
 .main__h2 {
   font-size: 64px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   line-height: 75px;
   text-align: center;
   font-weight: 700;
@@ -493,6 +496,7 @@ a {
   font-family: "Futura Std", sans-serif;
 
   color: aliceblue;
+  
 }
 
 form {
@@ -531,7 +535,7 @@ textarea {
 /* --------------------------------------------------footer--------------------------------------- */
 .main__line {
   margin-top: 1rem;
-  margin-left: 240px;
+  margin-left: 98px;
   height: 15px;
   border: none;
   margin-bottom: 1rem;
@@ -593,23 +597,27 @@ textarea {
 
 /* ---------------------------------------------------Quienes somos------------------------------------------ */
 
-.div {
-  margin: 7rem;
+.div{
+  margin: 4rem;
   display: flex;
-  gap: 6rem;
+  gap: 2rem;
 }
 .div__img {
   width: 50%;
 }
-.div__h2 {
-  font-family: "Futura Std", sans-serif;
-  font-size: 4rem;
-  font-weight: bold;
+.div__h2{
+  font-family: "Roboto";
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 80.86px;
 }
 
 .div__p {
-  font-size: 1.2rem;
-  font-family: "Futura Std", sans-serif;
+  margin-top: 35px;
+  font-size: 18px;
+  font-family: "Roboto";
+  line-height: 25px;
+  font-weight: 500;
 }
 .div__fig {
   display: flex;
@@ -632,42 +640,42 @@ textarea {
 .figure__people1 {
   height: 100%;
 }
-.div__h3 {
-  line-height: 25px;
+.div__h3{
+  
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   width: 176.85px;
   height: 36px;
-  font-family: "Roboto",  sans-serif;
+  font-family: "Roboto";
   font-weight: 500;
 }
 .div__nf {
-  color: #e6e6e6;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-family: "Roboto",  sans-serif;
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto";
 }
 .div__pNF {
-  padding: 0 1rem 0 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  color: #e6e6e6;
-  inline-size: 13rem;
-  font-family: "Futura Std", sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+  color: var(--color-white);
+  font-family: "Roboto";
+  font-weight: 500;
 }
-.div__p--Tanzania {
+.div__p--Tanzania{
   position: absolute;
-  font-size: 2rem;
-  top: 114rem;
+  font-size: 40px;
+  top: 110rem;
   right: 73px;
-  color: #e6e6e6;
-  font-family: "Futura Std", sans-serif;
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 /*--------------------------------------------------- EDUCACION------------------------------------------ */
 
 .div__mg {
-  margin: 0 6rem;
+  margin: 4rem 6rem;
 }
 .grid-item {
   display: flex;
@@ -678,7 +686,10 @@ textarea {
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   grid-auto-rows: minmax(170px, auto);
   gap: 1rem;
-  padding: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .item1 {
   grid-column: span 2;
@@ -748,6 +759,164 @@ textarea {
   border: none;
   line-height: 50.55px;
 }
+
+/* -------------------------------------------------------------------------------INSTALACIONES----------------------------------------------------- */
+.grid-container2{
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: minmax(200px, auto);
+    gap: 20px;
+    max-width: 600px;
+  padding: 20px;
+}
+
+.item1_2{
+    grid-column: span 2;
+}
+/* ----------------------------------------------------------------VOLUNTARIADO INTERNACIONAL----------------------------------- */
+.grid-col{
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+    grid-template-rows: minmax(535.27px, auto);
+    gap: 20px;
+  padding-left: 43px;
+  padding-right: 43px;
+}
+.h100{
+  height: 535.27px;
+}
+.grid-s-e{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  position: relative;
+}
+.grid-s-e2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  position: relative;
+}
+.card{
+  margin: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card_div{
+  width: 640px;
+  height: 457px;
+  border-radius: 15px;
+  
+}
+.card_img{
+  width: 566px;
+  height: 457px;
+}
+.item1_2{
+  position: relative;
+}
+.grid_p{
+  position: absolute;
+  top: 483px;
+  height: 52.56px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 19px;
+}
+.box{
+  height:324px ;
+  width: 100%;
+  padding: 50px;
+  margin-top: 2rem;
+}
+
+.box-text{
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 46.88px;
+  padding-bottom: 2rem;
+}
+.box-p{
+  
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 35px;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: ease-out 0.3s;
+}
+.content:hover{
+  opacity: 0.9;
+}
+
+.content h1{
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--color-secondary);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.content p{
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------------empoderamiento femenino------------------------- */
+.w-h{
+  width: 559px;
+  height: 671px;
+}
+.w-h2{
+  width: 587px;
+  height: 498px;
+}
+.box-h{
+  height: 299px;
+  
+}
+/* --------------------------------------school------------------------------------------------- */
+.title-school{
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+.cont-second{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* -------------------------------------- */
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
