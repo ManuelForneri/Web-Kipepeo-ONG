@@ -493,10 +493,11 @@ a {
   width: 40%;
 }
 .main__h3 {
-  font-family: "Futura Std", sans-serif;
-
-  color: aliceblue;
-  
+  font-family: "Roboto";
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 22px;
+  line-height: 25px;
 }
 
 form {
