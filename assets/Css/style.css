@@ -85,6 +85,7 @@ a {
   z-index: 3;
   display: none;
   position: absolute;
+  width: 250px;
   top: 100%;
   left: 0;
   background-color: var(--color-secondary);
