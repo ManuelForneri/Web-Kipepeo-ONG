@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/Css/style.css" />
     <link
       rel="stylesheet"
@@ -20,179 +20,233 @@
     <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
     <title>Escuela | Kipepeo</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a href="../index.html"
-        ><img
-          class="logo"
-          src="../assets/Img/logo-tanzania.png"
-          alt="logo-tanzania"
-      /></a>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="../index.html"
+          ><img
+            class="logo"
+            src="../assets/Img/logo-tanzania.png"
+            alt="logo-tanzania"
+        /></a>
 
-      <ul class="nav-list">
-        <li><a href="../index.html" class="nav-links">Inicio</a></li>
-        <li class="has-dropdown">
-          <a href="#" class="nav-links">Nosotros</a>
-          <ul class="dropdown">
-            <li><a href="./about.html">Quiénes somos</a></li>
-            <li><a href="./history.html">Historia</a></li>
-          </ul>
-        </li>
-        <li class="has-dropdown">
-          <a href="#" class="nav-links">Qué hacemos</a>
-          <ul class="dropdown">
-            <li><a href="#">Educación</a></li>
-            <li><a href="./tourism.html">Turismo</a></li>
-          </ul>
-        </li>
-        <li><a href="./help.html" class="nav-links">Cómo ayudar</a></li>
-        <li><a href="./contact.html" class="nav-links">Contacto</a></li>
-        <li>
-          <div class="social-buttons">
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="social-icon"
-              aria-label="facebook"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="social-icon"
-              aria-label="twitter"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/kilimamojahotspring/"
-              class="social-icon"
-              aria-label="Instagram"
-              target="_blank"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="language-dropdown">
-            <select class="dropdown-select" id="language-select">
-              <option value="es">ES</option>
-              <option value="en">EN</option>
-            </select>
-          </div>
-        </li>
-      </ul>
-      <div class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <ul class="nav-list">
+          <li class="has-dropdown">
+            <a href="#" class="nav-links">Kipepeo</a>
+            <ul class="dropdown">
+              <li><a href="./about.html">Quiénes somos</a></li>
+              <li><a href="./place.html">Donde estamos</a></li>
+              <li>
+                <a href="./installation.html">Instalaciones Kipepeo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="nav-links">Proyectos</a>
+            <ul class="dropdown">
+              <li>
+                <a href="./volunteering.html">Voluntariado internacional</a>
+              </li>
+              <li>
+                <a href="./empowerment.html">Empoderamiento de la mujer</a>
+              </li>
+              <li><a href="./school.html">Escuela primaria</a></li>
+              <li><a href="#">Proyecto amadrinamiento</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./tourism.html" class="nav-links">Turismo vivencial</a>
+          </li>
+          <li>
+            <a href="./donation.html" class="nav-links">Cómo ayudar</a>
+          </li>
+          <li><a href="./contact.html" class="nav-links">Contacto</a></li>
+          <li>
+            <div class="social-buttons">
+              <a
+                rel="noopener"
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-icon"
+                aria-label="facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                rel="noopener"
+                href="https://twitter.com/"
+                target="_blank"
+                class="social-icon"
+                aria-label="twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                rel="noopener"
+                href="https://www.instagram.com/kilimamojahotspring/"
+                class="social-icon"
+                aria-label="Instagram"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="language-dropdown">
+              <select
+                class="dropdown-select"
+                id="language-select"
+                title="language"
+              >
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Comienza el main -->
+    <main>
+      <h2 class="div__h2 title-school text-secondary">
+        SCHOOL KILIMAMOJA <span style="color: black">HOT SPRING</span>
+      </h2>
+      <!-- primera parte -->
+      <div class="div" style="justify-content: center; gap: 3rem">
+        <div><img src="../assets/Img/escuela.png" alt="enseñanza" /></div>
+        <div class="cont-second">
+          <h3 class="div__h2" style="font-size: 40px; line-height: 46.86px">
+            CONSTRUIMOS <span class="text-secondary">FUTURO</span>
+          </h3>
+          <p class="div__p" style="inline-size: 557px">
+            Kilimamoja Hot Spring abrió sus puertas con un objetivo en mente:
+            construir un espacio para que todos los estudiantes crecieran,
+            aprendieran y desarrollaran su creatividad. <br /><br />
+            Los métodos de aprendizaje que seguimos y la pasión que imprimimos
+            todos los días a nuestro trabajo hacen que cada alumno desarrolle
+            sus habilidades al máximo. <br /><br />
+            Le invitamos a explorar nuestro sitio web para descubrir los
+            aspectos académicos y la relevancia que KIilimamoja Hot Spring tiene
+            en la comunidad.
+          </p>
+        </div>
       </div>
-    </nav>
-  </header>
-      <!-- Comienza el main -->
-      <main>
-        <h2 class="div__h2 title-school text-secondary">SCHOOL KILIMAMOJA <span style="color: black;">HOT SPRING</span></h2>
-        <!-- primera parte -->
-        <div class="div" style="justify-content: center; gap: 3rem;">
-            
-          <div><img src="../assets/Img/escuela.png" alt="enseñanza"></div>
-          <div class="cont-second">
-            <h3 class="div__h2" style="font-size: 40px ; line-height: 46.86px;">CONSTRUIMOS <span class="text-secondary">FUTURO</span></h3>
-            <p class="div__p " style="inline-size: 557px;">
-                Kilimamoja Hot Spring abrió sus puertas con un objetivo en mente: construir un espacio para que todos los estudiantes crecieran, aprendieran y desarrollaran su creatividad. <br><br> Los métodos de aprendizaje que seguimos y la pasión que imprimimos todos los días a nuestro trabajo hacen que cada alumno desarrolle sus habilidades al máximo. <br><br> Le invitamos a explorar nuestro sitio web para descubrir los aspectos académicos y la relevancia que KIilimamoja Hot Spring tiene en la comunidad.
+      <!-- segunda parte -->
+      <div class="div" style="justify-content: center; gap: 3rem">
+        <div class="cont-second" style="inline-size: 608px; padding-left: 23px">
+          <h3
+            class="div__h2 text-secondary"
+            style="font-size: 40px; line-height: 46.86px"
+          >
+            ENRIQUECEMOS LAS VIDAS
+            <span style="color: black">DE LOS ESTUDIANTES</span>
+          </h3>
+          <p class="div__p">
+            Queremos que nuestros estudiantes se desarrollen gracias a las
+            actividades que tenemos tanto dentro como fuera del aula. La misión
+            de KILIMAMOJA HOT SPRING PRIMARY SCHOOL es crear un lugar donde los
+            alumnos puedan sentirse libres, seguros y confiados para enfrentar
+            todos los desafíos que se les presenten. <br /><br />
+            Ofrecemos una gran variedad de oportunidades para ayudarles, de
+            forma práctica y divertida, a convertirse en la mejor versión de
+            ellos mismos. (incluye una foto al lado)
+          </p>
+        </div>
+        <div><img src="../assets/Img/escuela2.png" alt="enseñanza" /></div>
+      </div>
+      <!--  -->
+      <!-- tercera -->
+      <div class="div" style="justify-content: center; gap: 3rem">
+        <div><img src="../assets/Img/escuela3.png" alt="enseñanza" /></div>
+        <div style="display: flex; flex-direction: column">
+          <h3 class="div__h2" style="font-size: 40px; line-height: 46.86px">
+            APRENDIZAJE <span class="text-secondary">SIN LIMITES</span>
+          </h3>
+          <p class="div__p" style="inline-size: 557px">
+            Gracias a la gran experiencia que tenemos como educadores, hemos
+            desarrollado una filosofía que ha probado ser efectiva. <br /><br />
+            Nuestro enfoque único hace que los alumnos se sientan respetados,
+            queridos y capaces, todo a través de una experiencia colaborativa
+            con cada uno de ellos.
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <hr class="main__line bg-secondary" />
+      <hr
+        class="main__line--bg bg-primary"
+        style="margin-bottom: 2rem; margin-right: 98px"
+      />
+    </main>
+    <!-- Termina el main -->
+    <footer class="footer">
+      <div class="footer__div">
+        <div class="footer__logo">
+          <img
+            src="../assets/Img/logo-tanzania.png"
+            alt="logo"
+            class="footer__img"
+          />
+        </div>
+        <div class="footer__container">
+          <div class="footer__container1">
+            <p class="footer__p">
+              Quienes somos Personas con ganas de involucrarse día día
+            </p>
+            <p class="footer__p">
+              Que hacemos Apadrinamos, para continuar financiando los estudios
+            </p>
+            <p class="footer__p">
+              Contacto +(54)9283 2929 39393 +(54)9283 2929 39393
             </p>
           </div>
-          
-        </div>
-        <!-- segunda parte -->
-        <div class="div" style="justify-content: center; gap: 3rem;">
-            <div class="cont-second" style="inline-size: 608px; padding-left: 23px;">
-                <h3 class="div__h2 text-secondary" style="font-size: 40px ; line-height: 46.86px;">ENRIQUECEMOS LAS VIDAS <span style="color: black;">DE LOS ESTUDIANTES</span></h3>
-                <p class="div__p ">
-                    Queremos que nuestros estudiantes se desarrollen gracias a las actividades que tenemos tanto dentro como fuera del aula. La misión de KILIMAMOJA HOT SPRING PRIMARY SCHOOL es crear un lugar donde los alumnos puedan sentirse libres, seguros y confiados para enfrentar todos los desafíos que se les presenten. <br><br> Ofrecemos una gran variedad de oportunidades para ayudarles, de forma práctica y divertida, a convertirse en la mejor versión de ellos mismos. (incluye una foto al lado)
-                </p>
-            </div>
-              <div><img src="../assets/Img/escuela2.png" alt="enseñanza"></div>
-          </div>
-          <!--  -->
-          <!-- tercera -->
-          <div class="div" style="justify-content: center; gap: 3rem;">
-            <div><img src="../assets/Img/escuela3.png" alt="enseñanza"></div>
-            <div style="display: flex; flex-direction: column;">
-            <h3 class="div__h2" style="font-size: 40px ; line-height: 46.86px;">APRENDIZAJE <span class="text-secondary">SIN LIMITES</span></h3>
-            <p class="div__p " style="inline-size: 557px;">
-                Gracias a la gran experiencia que tenemos como educadores, hemos desarrollado una filosofía que ha probado ser efectiva. <br><br> Nuestro enfoque único hace que los alumnos se sientan respetados, queridos y capaces, todo a través de una experiencia colaborativa con cada uno de ellos.
-            </p>
-          </div>
-          </div>
-          <!--  -->
-        <hr class="main__line bg-secondary" />
-      <hr class="main__line--bg bg-primary" style="margin-bottom: 2rem; margin-right: 98px;" />
-      </main>
-      <!-- Termina el main -->
-      <footer class="footer">
-        <div class="footer__div">
-          <div class="footer__logo">
-            <img
-              src="../assets/Img/logo-tanzania.png"
-              alt="logo"
-              class="footer__img"
-            />
-          </div>
-          <div class="footer__container">
-            <div class="footer__container1">
-              <p class="footer__p">
-                Quienes somos Personas con ganas de involucrarse día día
-              </p>
-              <p class="footer__p">
-                Que hacemos Apadrinamos, para continuar financiando los estudios
-              </p>
-              <p class="footer__p">
-                Contacto +(54)9283 2929 39393 +(54)9283 2929 39393
-              </p>
-            </div>
-            <div class="footer__container2">
-              <p class="footer__p">Quienes somos</p>
-              <p class="footer__p">Quienes somos</p>
-            </div>
+          <div class="footer__container2">
+            <p class="footer__p">Quienes somos</p>
+            <p class="footer__p">Quienes somos</p>
           </div>
         </div>
-        <hr class="footer__hr" />
-        <nav id="rrss" class="footer__nav">
-          <p class="footer__p">Copyright 2023, Organización Kipepeo</p>
-          <div class="nav__redes">
-            <!-- iconos de redes sociales -->
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="social-icon"
-              aria-label="facebook"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="social-icon"
-              aria-label="twitter"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/kilimamojahotspring/"
-              class="social-icon"
-              aria-label="Instagram"
-              target="_blank"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-        </nav>
-      </footer>
-      <script src="../assets/Js/index.js"></script>
-      <!-- js -->
-        
-</body>
+      </div>
+      <hr class="footer__hr" />
+      <nav id="rrss" class="footer__nav">
+        <p class="footer__p">Copyright 2023, Organización Kipepeo</p>
+        <div class="nav__redes">
+          <!-- iconos de redes sociales -->
+          <a
+            rel="noopener"
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="social-icon"
+            aria-label="facebook"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            rel="noopener"
+            href="https://twitter.com/"
+            target="_blank"
+            class="social-icon"
+            aria-label="twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            rel="noopener"
+            href="https://www.instagram.com/kilimamojahotspring/"
+            class="social-icon"
+            aria-label="Instagram"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </nav>
+    </footer>
+    <script src="../assets/Js/index.js"></script>
+    <!-- js -->
+  </body>
 </html>
