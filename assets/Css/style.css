@@ -537,6 +537,12 @@ a {
   font-style: normal;
   font-weight: 500;
 }
+.description-tourism-container {
+  min-height: 100vh;
+}
+.middle-description {
+  display: flex;
+}
 
 /*----------------------------------------------------------Contacto-------------------------------------------------*/
 
