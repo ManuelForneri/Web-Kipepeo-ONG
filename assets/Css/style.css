@@ -499,14 +499,21 @@ a {
   flex-direction: column;
   gap: 30px;
   margin: auto;
+  margin-bottom: 100px;
 }
 .tourism-text {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-bottom: 80px;
 }
 .tourism-text p {
+  color: #100f0d;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .imagen-tourism {
@@ -537,7 +544,35 @@ a {
   font-style: normal;
   font-weight: 500;
 }
-
+.middle-description {
+  display: flex;
+  gap: 25px;
+}
+.image-tourism-container {
+  width: 60%;
+}
+.text-tourism-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-around;
+}
+.text-tourism-container p {
+  color: #100f0d;
+  font-family: "Roboto";
+  font-size: 120%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.description-tourism {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
 /*----------------------------------------------------------Contacto-------------------------------------------------*/
 
 .main__div {
