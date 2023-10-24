@@ -879,23 +879,21 @@ textarea {
 /* ----------------------------------------------------------------VOLUNTARIADO INTERNACIONAL----------------------------------- */
 .grid-col {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
-  grid-template-rows: minmax(535.27px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: minmax(320.27px, auto);
   gap: 20px;
   padding-left: 43px;
   padding-right: 43px;
 }
 .h100 {
-  height: 535.27px;
+  height: 320px;
 }
 .grid-s-e {
-  grid-column-start: 2;
-  grid-column-end: 4;
+
   position: relative;
 }
 .grid-s-e2 {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  
   position: relative;
 }
 .card {
@@ -912,12 +910,12 @@ textarea {
   width: 566px;
   height: 457px;
 }
-.item1_2 {
+.item_relative{
   position: relative;
 }
 .grid_p {
   position: absolute;
-  top: 483px;
+  top: 269px;
   height: 52.56px;
   padding-top: 15px;
   text-align: center;
@@ -926,8 +924,8 @@ textarea {
   color: var(--color-secondary);
   font-family: "Roboto";
   font-weight: 700;
-  font-size: 25px;
-  line-height: 19px;
+  font-size: 14.97px;
+  line-height: 11.37px;
 }
 .box {
   height: 324px;
@@ -971,8 +969,8 @@ textarea {
 .content h1 {
   font-family: "Roboto";
   font-weight: 700;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 20px;
   color: var(--color-secondary);
   margin-bottom: 25px;
   text-align: center;
@@ -980,9 +978,13 @@ textarea {
 .content p {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 13px;
   text-align: center;
+}
+
+.content img{
+  width: 25%;
 }
 
 /* -----------------------------------------empoderamiento femenino------------------------- */

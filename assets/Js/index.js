@@ -1,6 +1,7 @@
 const burger = document.querySelector(".burger");
 const navLinks = document.querySelector(".nav-links");
 
+
 burger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
@@ -27,3 +28,5 @@ window.addEventListener("load", function () {
     }, 1000); // Puedes ajustar el tiempo de animación aquí
   }, 2000); // Cambia este valor al tiempo que desees en milisegundos
 });
+
+
