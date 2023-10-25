@@ -924,11 +924,9 @@ textarea {
   height: 320px;
 }
 .grid-s-e {
-
   position: relative;
 }
 .grid-s-e2 {
-  
   position: relative;
 }
 .card {
@@ -945,7 +943,7 @@ textarea {
   width: 566px;
   height: 457px;
 }
-.item_relative{
+.item_relative {
   position: relative;
 }
 .grid_p {
@@ -1018,7 +1016,7 @@ textarea {
   text-align: center;
 }
 
-.content img{
+.content img {
   width: 25%;
 }
 
@@ -1043,6 +1041,57 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.middle-screen {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  margin: 50px auto;
+}
+.description-container-sponsorship {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.description-container-sponsorship p {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.description-container-sponsorship p b {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.imagen-sponsorship {
+  width: 50%;
+}
+.description-sponsorship {
+  width: 80%;
+  margin: 50px auto;
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.title-sponsorship {
+  width: 80%;
+  margin: auto;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* -------------------------------------- */
