@@ -499,14 +499,21 @@ a {
   flex-direction: column;
   gap: 30px;
   margin: auto;
+  margin-bottom: 100px;
 }
 .tourism-text {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-bottom: 80px;
 }
 .tourism-text p {
+  color: #100f0d;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .imagen-tourism {
@@ -537,7 +544,35 @@ a {
   font-style: normal;
   font-weight: 500;
 }
-
+.middle-description {
+  display: flex;
+  gap: 25px;
+}
+.image-tourism-container {
+  width: 60%;
+}
+.text-tourism-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-around;
+}
+.text-tourism-container p {
+  color: #100f0d;
+  font-family: "Roboto";
+  font-size: 120%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.description-tourism {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
 /*----------------------------------------------------------Contacto-------------------------------------------------*/
 
 .main__div {
@@ -889,11 +924,9 @@ textarea {
   height: 320px;
 }
 .grid-s-e {
-
   position: relative;
 }
 .grid-s-e2 {
-  
   position: relative;
 }
 .card {
@@ -910,7 +943,7 @@ textarea {
   width: 566px;
   height: 457px;
 }
-.item_relative{
+.item_relative {
   position: relative;
 }
 .grid_p {
@@ -983,7 +1016,7 @@ textarea {
   text-align: center;
 }
 
-.content img{
+.content img {
   width: 25%;
 }
 
@@ -1008,6 +1041,57 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.middle-screen {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  margin: 50px auto;
+}
+.description-container-sponsorship {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.description-container-sponsorship p {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.description-container-sponsorship p b {
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.imagen-sponsorship {
+  width: 50%;
+}
+.description-sponsorship {
+  width: 80%;
+  margin: 50px auto;
+  color: #100f0d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.title-sponsorship {
+  width: 80%;
+  margin: auto;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* -------------------------------------- */
